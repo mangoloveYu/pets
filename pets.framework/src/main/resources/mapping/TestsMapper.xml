@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.pets.dao.TestsMapper" >
+  <resultMap id="BaseResultMap" type="com.pets.model.entity.Tests" >
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="years" property="years" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, name, years, gender
+  </sql>
+
+  <select id="findTestList" resultType="com.pets.model.entity.Tests" parameterType="map">
+    select
+    <include refid="Base_Column_List" />
+    from tb
+  </select>
+</mapper>
