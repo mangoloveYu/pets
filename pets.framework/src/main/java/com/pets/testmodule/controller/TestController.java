@@ -1,8 +1,8 @@
-package com.pets.controller;
+package com.pets.testmodule.controller;
 
-import com.pets.model.entity.Tests;
-import com.pets.model.vo.TestVO;
-import com.pets.service.ITestService;
+import com.pets.testmodule.model.entity.Tests;
+import com.pets.testmodule.model.vo.TestVO;
+import com.pets.testmodule.service.ITestService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -34,16 +35,16 @@ public class TestController {
     @ApiImplicitParam(name="id", value="用户ID", required=true, dataType="String")
     @RequestMapping(value="/{id}", method= RequestMethod.GET)
     public ArrayList<TestVO> getInfo(@PathVariable String id) {
-        var result = new ArrayList<TestVO>();
+        List<TestVO> result = new ArrayList<TestVO>();
         ArrayList<Tests> testList = iUserService.findTestList();
         for (Tests item: testList) {
-            var entity = new TestVO();
+            TestVO entity = new TestVO();
             entity.setId(item.getId());
             entity.setName(item.getName());
             entity.setYears(item.getYears());
             result.add(entity);
         }
-        return result;
+        return (ArrayList<TestVO>) result;
     }
 
 }

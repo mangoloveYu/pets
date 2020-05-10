@@ -1,8 +1,8 @@
-package com.pets.service.impl;
+package com.pets.testmodule.service.impl;
 
-import com.pets.dao.TestsMapper;
-import com.pets.model.entity.Tests;
-import com.pets.service.ITestService;
+import com.pets.testmodule.dao.TestsMapper;
+import com.pets.testmodule.model.entity.Tests;
+import com.pets.testmodule.service.ITestService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
