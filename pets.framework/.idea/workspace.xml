@@ -4,7 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10b2b507-2553-4c69-8fb1-6f99b9097a29" name="Default" comment="" />
+    <list default="true" id="10b2b507-2553-4c69-8fb1-6f99b9097a29" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pets.framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pets.framework.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +44,9 @@
   <component name="FindBugs-IDEA-Workspace">
     <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -53,6 +60,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ax1xwIMzaw9CtSUOMAfqvGRyxm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -60,6 +68,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="Mybat&#9;PSI&#9;JAVA://org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -81,7 +90,7 @@
       <recent name="F:\ws3\pets.framework\src\main\resources\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.TestsTest.testEnum">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -176,7 +185,7 @@
       <setting name="depsClasspath" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="All in pets.framework" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in pets.framework (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pets.framework" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -308,17 +317,17 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.TestsTest.testFindUser" />
-      <item itemvalue="JUnit.All in pets.framework" />
       <item itemvalue="JUnit.TestsTest.testEnum" />
       <item itemvalue="JUnit.TestsTest.testNewId" />
+      <item itemvalue="JUnit.All in pets.framework (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.TestsTest.testNewId" />
         <item itemvalue="JUnit.TestsTest.testEnum" />
+        <item itemvalue="JUnit.TestsTest.testNewId" />
+        <item itemvalue="JUnit.All in pets.framework (1)" />
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.TestsTest.testFindUser" />
-        <item itemvalue="JUnit.All in pets.framework" />
       </list>
     </recent_temporary>
   </component>
@@ -352,6 +361,7 @@
       <workItem from="1587881934573" duration="9853000" />
       <workItem from="1587896762405" duration="43215000" />
       <workItem from="1588218252489" duration="306000" />
+      <workItem from="1589707816594" duration="998000" />
     </task>
     <servers />
   </component>
@@ -403,22 +413,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588003439501" />
-    <state width="1493" height="167" key="GridCell.Tab.0.bottom" timestamp="1588218559957">
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom" timestamp="1589710237008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588218559957" />
-    <state width="1493" height="167" key="GridCell.Tab.0.center" timestamp="1588218559957">
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589710237008" />
+    <state width="1493" height="167" key="GridCell.Tab.0.center" timestamp="1589710237008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588218559957" />
-    <state width="1493" height="167" key="GridCell.Tab.0.left" timestamp="1588218559957">
+    <state width="1493" height="167" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589710237008" />
+    <state width="1493" height="167" key="GridCell.Tab.0.left" timestamp="1589710237008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588218559957" />
-    <state width="1493" height="167" key="GridCell.Tab.0.right" timestamp="1588218559957">
+    <state width="1493" height="167" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589710237008" />
+    <state width="1493" height="167" key="GridCell.Tab.0.right" timestamp="1589710237008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588218559957" />
+    <state width="1493" height="167" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589710237008" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1588089603392">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
