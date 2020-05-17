@@ -1,6 +1,5 @@
-package com.pets.model.enums;
+package com.pets.testmodule.model.enums;
 
-import jdk.jfr.Description;
 
 /**
  * @author 芒果love

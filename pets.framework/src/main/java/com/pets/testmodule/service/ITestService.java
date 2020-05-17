@@ -1,6 +1,6 @@
-package com.pets.service;
+package com.pets.testmodule.service;
 
-import com.pets.model.entity.Tests;
+import com.pets.testmodule.model.entity.Tests;
 import java.util.ArrayList;
 
 /**

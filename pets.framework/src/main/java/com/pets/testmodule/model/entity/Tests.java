@@ -1,14 +1,16 @@
-package com.pets.model.vo;
+package com.pets.testmodule.model.entity;
 
 /**
  * @author 芒果love
  */
-public class TestVO {
+public class Tests {
     private String id;
 
     private String name;
 
     private Integer years;
+
+    public Short gender;
 
     public String getId() {
         return id;
@@ -32,8 +34,7 @@ public class TestVO {
         this.years = years;
     }
 
-    @Override
-    public String toString() {
-        return "TestVO{" + "id=" + id + '\'' + "name=" + name + '\'' + "years=" + years + '\'' + '}';
-    }
+    public Short getGender(){ return gender; }
+
+    public void setGender() { this.gender = gender; }
 }

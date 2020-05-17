@@ -1,18 +1,14 @@
-package com.pets.model.entity;
-
-import com.pets.model.enums.GenderEnum;
+package com.pets.testmodule.model.vo;
 
 /**
  * @author 芒果love
  */
-public class Tests {
+public class TestVO {
     private String id;
 
     private String name;
 
     private Integer years;
-
-    public Short gender;
 
     public String getId() {
         return id;
@@ -36,7 +32,8 @@ public class Tests {
         this.years = years;
     }
 
-    public Short getGender(){ return gender; }
-
-    public void setGender() { this.gender = gender; }
+    @Override
+    public String toString() {
+        return "TestVO{" + "id=" + id + '\'' + "name=" + name + '\'' + "years=" + years + '\'' + '}';
+    }
 }

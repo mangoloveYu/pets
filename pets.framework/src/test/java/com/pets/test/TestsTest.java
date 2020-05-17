@@ -2,9 +2,9 @@ package com.pets.test;
 
 import com.pets.App;
 import com.pets.common.SequenceIdGenerator;
-import com.pets.dao.TestsMapper;
-import com.pets.model.entity.*;
-import com.pets.model.enums.GenderEnum;
+import com.pets.testmodule.dao.TestsMapper;
+import com.pets.testmodule.model.entity.*;
+import com.pets.testmodule.model.enums.GenderEnum;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;

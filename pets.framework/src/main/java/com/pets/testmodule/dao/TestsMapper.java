@@ -1,6 +1,6 @@
-package com.pets.dao;
+package com.pets.testmodule.dao;
 
-import com.pets.model.entity.Tests;
+import com.pets.testmodule.model.entity.Tests;
 import java.util.ArrayList;
 
 /**
